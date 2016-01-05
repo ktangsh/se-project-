@@ -1,0 +1,143 @@
+.top-buffer3 { margin-top:3%; }
+.top-buffer10 { margin-top:10%; }
+.top-buffer50 { margin-top:50%; }
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.right {
+    position: absolute;
+    top: 120px;
+    left: 350px;
+    padding: 10px;
+}
+
+.further-right {
+    position: absolute;
+    top: 120px;
+    left: 500px;
+    padding: 10px;
+}
+
+.furthest-right {
+    position: absolute;
+    top: 120px;
+    left: 800px;
+    padding: 10px;    
+}
+
+.upload-panel .btn{border-radius:0; border-left:0;}
+
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  background: red;
+  cursor: inherit;
+  display: block;
+}
+input[readonly] {
+  background-color: white !important;
+  cursor: text !important;
+}
+table.fixedHead{
+    width:100%;
+}
+table.table-fixedheader>tbody{
+    display:block;
+}
+
+table.table-fixedheader>tbody {
+    
+    overflow-y: auto;
+    height: 50px; /*placeholder:  override as needed*/
+   
+}
+
+table.table-fixedheader>thead>tr>th{
+    float: left;
+    /*plachoder:  override as needed*/
+}
+
+table.table-fixedheader>tbody {
+    width:100%;
+    float: left;   
+}
+
+table.table-fixedheader>tbody>tr>td {
+    float: left;   
+}
+
+.form-group {
+    margin-right: 10px;
+}
+
+.form-group label {
+    margin-right: 5px;
+}
+
+#legend {
+    list-style: none;
+    padding-left: 0px;
+}
+
+#legend li {
+    padding-top: 5px;
+}
+
+#legend li:nth-child(1) .color-block {
+    background-color: rgb(240,249,232);
+}
+
+#legend li:nth-child(2) .color-block {
+    background-color: rgb(204,235,197);
+}
+
+#legend li:nth-child(3) .color-block {
+    background-color: rgb(168,221,181);
+}
+
+#legend li:nth-child(4) .color-block {
+    background-color: rgb(123,204,196);
+}
+
+#legend li:nth-child(5) .color-block {
+    background-color: rgb(78,179,211);
+}
+
+#legend li:nth-child(6) .color-block {
+    background-color: rgb(43,140,190);
+}
+
+#legend li:nth-child(7) .color-block {
+    background-color: rgb(8,88,158);
+}
+
+#legend .color-block {
+    display: inline-block;
+    width: 25px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.heatmap-area {
+    cursor: help;
+}
